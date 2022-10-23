@@ -39,7 +39,10 @@ public class HelloGit {
 		System.out.println("Sum of 4 Numbers = " + add4Numbers(5, 6, 7, 8));
 		
 		// Function to add 2 Numbers: Change made in Local
-		System.out.println("Sum of 3 Numbers = " + add2Numbers(5, 6));
+		System.out.println("Sum of 2 Numbers = " + add2Numbers(5, 6));
+		
+		// Function to add 5 Numbers: Change made in Git Repo
+				System.out.println("Sum of 5 Numbers = " + add5Numbers(5, 6, 7, 8, 9));
 	
 	}
 	
@@ -71,6 +74,15 @@ public class HelloGit {
 	   
 	   int sum = a + b;
 	   System.out.println("Sum of 2 Numbers = " + sum);
+		
+	   return sum;
+	}
+	
+	public static int add5Numbers(int a, int b, int c, int d, int e)
+	{
+	   
+	   int sum = a + b + c + d + e;
+	   System.out.println("Sum of 5 Numbers = " + sum);
 		
 	   return sum;
 	}
