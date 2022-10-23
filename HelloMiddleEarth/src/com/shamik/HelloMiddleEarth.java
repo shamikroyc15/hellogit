@@ -6,9 +6,11 @@ public class HelloMiddleEarth {
 		
 		String[] names = {"Bilbo", "Fredo", "Aragorm", "Legolas", "Gandalf"};
 		
-		for(int i = 0; i < names.length; i++)
+		
+		// Put Some Comments ==> Developer 1
+		for(String name : names)
 		{
-			System.out.format("Hello, %s! \n", names[i]);
+			System.out.format("Hello, %s! \n", name);
 		}
 	}
 
