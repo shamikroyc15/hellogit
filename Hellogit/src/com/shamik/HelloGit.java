@@ -42,7 +42,10 @@ public class HelloGit {
 		System.out.println("Sum of 2 Numbers = " + add2Numbers(5, 6));
 		
 		// Function to add 5 Numbers: Change made in Git Repo
-				System.out.println("Sum of 5 Numbers = " + add5Numbers(5, 6, 7, 8, 9));
+		System.out.println("Sum of 5 Numbers = " + add5Numbers(5, 6, 7, 8, 9));
+		
+		// Function to Multiply 2 Numbers
+		System.out.println("Product of 2 Numbers = " + multiply2Numbers(4, 9));
 	
 	}
 	
@@ -85,6 +88,11 @@ public class HelloGit {
 	   System.out.println("Sum of 5 Numbers = " + sum);
 		
 	   return sum;
+	}
+	
+	public static int multiply2Numbers(int a, int b)
+	{
+	   return a*b;
 	}
 	
 }
