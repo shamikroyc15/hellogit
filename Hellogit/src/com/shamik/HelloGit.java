@@ -46,6 +46,9 @@ public class HelloGit {
 		
 		// Function to Multiply 2 Numbers
 		System.out.println("Product of 2 Numbers = " + multiply2Numbers(4, 9));
+		
+		// Function to Multiply 3 Numbers
+		System.out.println("Product of 3 Numbers = " + multiply3Numbers(4, 9, 10));
 	
 	}
 	
@@ -93,6 +96,11 @@ public class HelloGit {
 	public static int multiply2Numbers(int a, int b)
 	{
 	   return a*b;
+	}
+	
+	public static int multiply3Numbers(int a, int b, int c)
+	{
+	   return a*b*c;
 	}
 	
 }
