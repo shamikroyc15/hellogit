@@ -34,6 +34,9 @@ public class HelloGit {
 		// Print Filtered List
 		for(String filteredName: result)
 			System.out.println(filteredName);
+		
+		// Function to add 2 Numbers: Change made in Git Repo
+		add2Numbers(5, 6);
 	
 	}
 	
@@ -50,6 +53,12 @@ public class HelloGit {
 		
 		return result;
 
+	}
+	
+	public static add2Numbers(int a, int b)
+	{
+	   int sum = a + b;
+	   System.out.println("Sum = " + sum);
 	}
 	
 }
