@@ -18,6 +18,8 @@ public class HelloMiddleEarth {
 			System.out.println("How are you doing today !!");
 		}
 		
+		/* ******************************************************************** */
+		
 		// [Interface: List] extends [Interface: Iterable]
 		// [Interface: Iterable] has implemented method ==> forEach
 		// ==> [Interface: List] inherits it 
