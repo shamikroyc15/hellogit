@@ -1,5 +1,9 @@
 package com.shamik;
 
+import java.util.Arrays;
+import java.util.List;
+import java.util.function.Consumer;
+
 public class HelloMiddleEarth {
 
 	public static void main(String[] args) {
@@ -13,6 +17,28 @@ public class HelloMiddleEarth {
 			System.out.format("Hello, %s! \n", name);
 			System.out.println("How are you doing today !!");
 		}
+		
+		/* ******************************************************************** */
+		
+		// [Interface: List] extends [Interface: Iterable]
+		// [Interface: Iterable] has implemented method ==> forEach
+		// ==> [Interface: List] inherits it 
+		List<String> list = Arrays.asList("nope", "java", "python", "ruby");
+		
+		/* ******************************************************************** */
+		// Anonymous Inner Class
+		
+		System.out.println("Anonymous Inner Class");
+		
+		list.forEach(new Consumer<String>() {
+
+			@Override
+			public void accept(String s) {
+				System.out.println(s);	
+			}
+		});
+		
+		/* ******************************************************************** */
 	}
 
 }
