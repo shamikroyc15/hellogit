@@ -35,8 +35,8 @@ public class HelloGit {
 		for(String filteredName: result)
 			System.out.println(filteredName);
 		
-		// Function to add 2 Numbers: Change made in Git Repo
-		System.out.println("Sum of 2 Numbers = " + add2Numbers(5, 6));
+		// Function to add 3 Numbers: Change made in Git Repo
+		System.out.println("Sum of 3 Numbers = " + add3Numbers(5, 6, 7));
 	
 	}
 	
@@ -55,10 +55,10 @@ public class HelloGit {
 
 	}
 	
-	public static int add2Numbers(int a, int b)
+	public static int add3Numbers(int a, int b, int c)
 	{
-	   int sum = a + b;
-	   System.out.println("Sum = " + sum);
+	   int sum = a + b + c;
+	   System.out.println("Sum of 3 Numbers = " + sum);
 		
 	   return sum;
 	}
