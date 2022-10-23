@@ -37,6 +37,9 @@ public class HelloGit {
 		
 		// Function to add 2 Numbers: Change made in Git Repo
 		System.out.println("Sum of 4 Numbers = " + add4Numbers(5, 6, 7, 8));
+		
+		// Function to add 3 Numbers: Change made in Git Repo
+		System.out.println("Sum of 3 Numbers = " + add3Numbers(5, 6, 7));
 	
 	}
 	
@@ -57,8 +60,17 @@ public class HelloGit {
 	
 	public static int add4Numbers(int a, int b, int c, int d)
 	{
-	   int sum = a + b + c + d;
-	   System.out.println("Sum of 4 Numbers = " + sum);
+		int sum = a + b + c + d;
+		   System.out.println("Sum of 4 Numbers = " + sum);
+		   
+		   return sum;
+	}
+	
+	public static int add3Numbers(int a, int b, int c)
+	{
+	   
+	   int sum = a + b + c;
+	   System.out.println("Sum of 3 Numbers = " + sum);
 		
 	   return sum;
 	}
