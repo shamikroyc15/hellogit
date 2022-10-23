@@ -36,7 +36,7 @@ public class HelloGit {
 			System.out.println(filteredName);
 		
 		// Function to add 2 Numbers: Change made in Git Repo
-		System.out.println("Sum of 2 Numbers = " + add2Numbers(5, 6));
+		System.out.println("Sum of 4 Numbers = " + add4Numbers(5, 6, 7, 8));
 	
 	}
 	
@@ -55,10 +55,10 @@ public class HelloGit {
 
 	}
 	
-	public static int add2Numbers(int a, int b)
+	public static int add4Numbers(int a, int b, int c, int d)
 	{
-	   int sum = a + b;
-	   System.out.println("Sum = " + sum);
+	   int sum = a + b + c + d;
+	   System.out.println("Sum of 4 Numbers = " + sum);
 		
 	   return sum;
 	}
