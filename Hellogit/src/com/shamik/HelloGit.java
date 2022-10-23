@@ -12,7 +12,7 @@ public class HelloGit {
 		//Adding a comment
 		System.out.println("Hello Git !!!");
 
-
+		// Further changes after - Resolving Merge Conflicts
 		List<Person> people = Arrays.asList(
 				new Person("Charles", "Dickens", 60),
 				new Person("Lewis", "Carrol", 42),
@@ -49,6 +49,7 @@ public class HelloGit {
 		}
 		
 		return result;
+
 	}
 	
 }
