@@ -52,6 +52,9 @@ public class HelloMiddleEarth {
 		
 		list.forEach(System.out::println);
 		
+		// Calling Function to Print my Name
+		printMyName();
+		
 		
 		/* ******************************************************************** */
 	}
