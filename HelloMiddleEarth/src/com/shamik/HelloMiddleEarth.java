@@ -55,5 +55,11 @@ public class HelloMiddleEarth {
 		
 		/* ******************************************************************** */
 	}
+	
+	public static void printMyName()
+	{
+		String name = "Hahaha";
+		System.out.println("Printing my name: " + name);
+	}
 
 }
